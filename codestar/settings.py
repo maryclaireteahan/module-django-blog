@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
 
+import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['code-star-24649ea6e6a8.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['code-star-24649ea6e6a8.herokuapp.com', 'localhost', '127.0.0.1', 'module-django-todo-app-7a409e75b6a8.herokuapp.com']
 
 
 # Application definition
