@@ -9,7 +9,8 @@ defusedxml==0.7.1
 dj-database-url==0.5.0
 dj3-cloudinary-storage==0.0.6
 Django==3.2.22
-django-allauth==0.57.0
+-e git+https://github.com/pennersr/django-allauth.git@e8a10356ddf104e70a881706bd967c91dc698cbf#egg=django_allauth
+django-crispy-forms==1.14.0
 django-summernote==0.8.20.0
 gunicorn==21.2.0
 idna==3.4
